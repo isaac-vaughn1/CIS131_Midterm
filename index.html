@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Big Race</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--
+        Name: Isaac Vaughn
+        Class: Web Dev II
+        Date: 10/9/23
+    -->
+
+    <div class="mx-3">
+
+        <!--div representing the "stop light"-->
+        <div class="container-sm my-5" id="circle"></div>
+
+        <!--div that will display the winner at the top-->
+        <div id="winner">
+            <img src="#" alt="" id="winnerImg">
+            <h3 id="winnerTxt" class="fw-bold">#</h3>
+        </div>
+
+        <!--div holding all components for a race-->
+        <div class="d-flex align-items-center mx-3" id="raceContainer">
+
+            <!--div with the racers-->
+            <div id="racers">
+
+                <div id="redCar">
+                    <img src="car1.png" alt="#">
+                </div>
+
+                <div id="blueCar">
+                    <img src="car2.png" alt="#">
+                </div>
+            </div>
+
+            <!--div with the finish line-->
+            <div id="finish">
+                <img src="finish.png" alt="" class="border">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+/*
+Name: Isaac Vaughn
+Class: Web Dev II
+Date: 10/9/23
+*/
+#finish {
+    transform: rotate(90deg);
+    position: fixed;
+    right:0px;
+    z-index: 0;
+}
+
+#circle{
+    width: 100px;
+    height:100px;
+    background-color: red;
+    border-radius: 100%;
+    display: block;
+}
+
+#winner{
+    display:none;
+    text-align: center;
+}
+
+#redCar{
+    position: relative;
+    z-index: 1;
+}
+
+#blueCar{
+    position: relative;
+    z-index: 1;
+}
